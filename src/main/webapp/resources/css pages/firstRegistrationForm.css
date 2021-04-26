@@ -1,0 +1,35 @@
+
+card {
+  width: 200px;
+  border:5px solid red;
+}
+
+nav-item .nav-link[disabled]:hover {
+  
+}
+btn{
+	background-color:powderblue;
+	
+}
+
+form12{
+	
+	margin-top:12%;
+}
+
+dropdown-menu {
+	border-radius: 0;
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	&.dropdown-menu-right {
+		left: auto;
+		right: 0;
+	}
+}
+
+dropdown-item {
+	.fa,
+	.icon {
+		margin-right: 5px;
+		vertical-align: middle;
+	}
+}
